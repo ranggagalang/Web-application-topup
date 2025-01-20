@@ -1,0 +1,1043 @@
+ERROR - 2024-08-10 08:07:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 08:07:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 11:16:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 11:16:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 11:36:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 11:36:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 11:36:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 11:36:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 11:38:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 11:38:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 11:39:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 11:39:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 11:41:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 11:41:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 15:52:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 15:52:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 15:54:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 15:54:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-10 15:54:52 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Order.php on line 74.
+ 1 APPPATH/Controllers/Order.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Order->cekID()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 15:55:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 15:55:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 15:56:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 15:56:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 19:46:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 19:46:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 19:47:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 19:47:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 19:47:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 19:47:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 19:48:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 19:48:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 19:49:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 19:49:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 19:49:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 19:49:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-10 19:49:35 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Order.php on line 74.
+ 1 APPPATH/Controllers/Order.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Order->cekID()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 19:50:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 19:50:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-10 19:51:35 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Order.php on line 74.
+ 1 APPPATH/Controllers/Order.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Order->cekID()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 20:00:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 20:00:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 20:01:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 20:01:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 20:02:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 20:02:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-10 20:02:51 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Order.php on line 74.
+ 1 APPPATH/Controllers/Order.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Order->cekID()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 20:28:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 20:28:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 20:44:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 20:44:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 22:51:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 22:51:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 22:51:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 22:51:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 22:55:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 22:55:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 22:55:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 22:55:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 22:55:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 22:55:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 22:56:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 22:56:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 22:57:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 22:57:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 22:57:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 22:57:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 23:02:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 23:02:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 23:02:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 23:02:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 23:04:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 23:04:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 23:05:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 23:05:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 23:06:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 23:06:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 23:08:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 23:08:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-10 23:08:42 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Order.php on line 74.
+ 1 APPPATH/Controllers/Order.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Order->cekID()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 23:09:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 23:09:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 23:14:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 23:14:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 23:14:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 23:14:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 23:15:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 23:15:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-10 23:25:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/topupvip/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/topupvip/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/topupvip/public_html/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/topupvip/public_html/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/topupvip/public_html/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-10 23:25:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

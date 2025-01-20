@@ -1,0 +1,91 @@
+ERROR - 2024-06-02 10:36:51 --> mysqli_sql_exception: Column 'sts_flash_sale' cannot be null in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/topupvip/public_html/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/topupvip/public_html/system/BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 /home/topupvip/public_html/system/Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/topupvip/public_html/app/Controllers/Admin/Tambah.php(197): CodeIgniter\Model->insert(Array)
+#8 /home/topupvip/public_html/system/CodeIgniter.php(942): App\Controllers\Admin\Tambah->tambahProduk()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tambah))
+#10 /home/topupvip/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-02 10:36:51 --> Column 'sts_flash_sale' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `produk` (`logo`, `nama`, `brand`, `tipe`, `harga_provider`, `harga_jual`, `harga_basic`, `harga_gold`, `harga_platinum`, `keuntungan`, `keuntungan_basic`, `keuntungan_gold`, `keuntungan_platinum`, `kode_produk`, `status`, `provider`, `sts_flash_sale`, `persen_diskon`, `harga_fs`, `harga_fs_basic`, `harga_fs_gold`, `harga_fs_platinum`, `waktu_akhir_fs`, `created_at`, `updated_at`) VALUES (:logo:, :nama:, :brand:, :tipe:, :harga_provider:, :harga_jual:, :harga_basic:, :harga_gold:, :harga_platinum:, :keuntungan:, :keuntungan_basic:, :keuntungan_gold:, :keuntungan_platinum:, :kode_produk:, :status:, :provider:, :sts_flash_sale:, :persen_diskon:, :harga_fs:, :harga_fs_basic:, :harga_fs_gold:, :harga_fs_platinum:, :waktu_akhir_fs:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Admin/Tambah.php(197): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin\Tambah->tambahProduk()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tambah))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 10:37:02 --> mysqli_sql_exception: Column 'sts_flash_sale' cannot be null in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/topupvip/public_html/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/topupvip/public_html/system/BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 /home/topupvip/public_html/system/Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/topupvip/public_html/app/Controllers/Admin/Tambah.php(197): CodeIgniter\Model->insert(Array)
+#8 /home/topupvip/public_html/system/CodeIgniter.php(942): App\Controllers\Admin\Tambah->tambahProduk()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tambah))
+#10 /home/topupvip/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-02 10:37:02 --> Column 'sts_flash_sale' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `produk` (`logo`, `nama`, `brand`, `tipe`, `harga_provider`, `harga_jual`, `harga_basic`, `harga_gold`, `harga_platinum`, `keuntungan`, `keuntungan_basic`, `keuntungan_gold`, `keuntungan_platinum`, `kode_produk`, `status`, `provider`, `sts_flash_sale`, `persen_diskon`, `harga_fs`, `harga_fs_basic`, `harga_fs_gold`, `harga_fs_platinum`, `waktu_akhir_fs`, `created_at`, `updated_at`) VALUES (:logo:, :nama:, :brand:, :tipe:, :harga_provider:, :harga_jual:, :harga_basic:, :harga_gold:, :harga_platinum:, :keuntungan:, :keuntungan_basic:, :keuntungan_gold:, :keuntungan_platinum:, :kode_produk:, :status:, :provider:, :sts_flash_sale:, :persen_diskon:, :harga_fs:, :harga_fs_basic:, :harga_fs_gold:, :harga_fs_platinum:, :waktu_akhir_fs:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Admin/Tambah.php(197): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin\Tambah->tambahProduk()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tambah))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-02 10:37:20 --> mysqli_sql_exception: Column 'sts_flash_sale' cannot be null in /home/topupvip/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/topupvip/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/topupvip/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/topupvip/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/topupvip/public_html/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/topupvip/public_html/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/topupvip/public_html/system/BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 /home/topupvip/public_html/system/Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/topupvip/public_html/app/Controllers/Admin/Tambah.php(197): CodeIgniter\Model->insert(Array)
+#8 /home/topupvip/public_html/system/CodeIgniter.php(942): App\Controllers\Admin\Tambah->tambahProduk()
+#9 /home/topupvip/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tambah))
+#10 /home/topupvip/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/topupvip/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-02 10:37:20 --> Column 'sts_flash_sale' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `produk` (`logo`, `nama`, `brand`, `tipe`, `harga_provider`, `harga_jual`, `harga_basic`, `harga_gold`, `harga_platinum`, `keuntungan`, `keuntungan_basic`, `keuntungan_gold`, `keuntungan_platinum`, `kode_produk`, `status`, `provider`, `sts_flash_sale`, `persen_diskon`, `harga_fs`, `harga_fs_basic`, `harga_fs_gold`, `harga_fs_platinum`, `waktu_akhir_fs`, `created_at`, `updated_at`) VALUES (:logo:, :nama:, :brand:, :tipe:, :harga_provider:, :harga_jual:, :harga_basic:, :harga_gold:, :harga_platinum:, :keuntungan:, :keuntungan_basic:, :keuntungan_gold:, :keuntungan_platinum:, :kode_produk:, :status:, :provider:, :sts_flash_sale:, :persen_diskon:, :harga_fs:, :harga_fs_basic:, :harga_fs_gold:, :harga_fs_platinum:, :waktu_akhir_fs:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Admin/Tambah.php(197): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin\Tambah->tambahProduk()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Tambah))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-02 10:50:37 --> Invalid file: "target/Id_text.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('target/Id_text.php')
+ 2 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('target/Id_text', null, true)
+ 3 APPPATH/Views/buy.php(133): CodeIgniter\View\View->include('target/Id_text')
+ 4 SYSTEMPATH/View/View.php(228): include('/home/topupvip/public_html/app/Views/buy.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('buy', [], true)
+ 7 APPPATH/Controllers/View.php(192): view('buy', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->buy('point-blank')
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

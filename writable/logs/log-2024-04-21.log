@@ -1,0 +1,422 @@
+ERROR - 2024-04-21 20:02:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:02:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:02:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:02:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:03:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:03:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:03:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:03:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:04:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:04:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:05:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:05:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-21 20:08:19 --> foreach() argument must be of type array|object, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 50.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-21 20:08:33 --> foreach() argument must be of type array|object, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 50.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:10:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:10:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:10:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:10:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:11:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:11:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:11:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:11:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:11:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:11:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:11:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:11:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:11:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:11:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:12:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:12:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:12:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:12:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:13:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:13:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-21 20:14:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/xos/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/xos/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/xos/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/mentari3/tema1.xosgames.com/xos/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/mentari3/tema1.xosgames.com/xos/app/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+#7 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+#8 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/mentari3/tema1.xosgames.com/xos/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/mentari3/tema1.xosgames.com/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-21 20:14:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(80): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

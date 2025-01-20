@@ -1,0 +1,19 @@
+CRITICAL - 2024-03-27 20:11:26 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Sistem/Sistem.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Sistem\Sistem->getProdukDf()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 20:13:00 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Sistem/Sistem.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Sistem\Sistem->getProdukDf()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-27 20:30:39 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Sistem/Sistem.php on line 263.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Sistem\Sistem->getProdukDf()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-27 22:00:22 --> Invoice not found or status is not Pending.

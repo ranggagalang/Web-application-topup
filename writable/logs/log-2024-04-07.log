@@ -1,0 +1,64 @@
+CRITICAL - 2024-04-07 20:36:46 --> Invalid file: "target/B.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/buy.php(74): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(228): include('/home/mentari3/tema1.xosgames.com/app/Views/buy.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/View.php(123): view()
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->buy()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-07 22:46:14 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Order.php on line 74.
+ 1 APPPATH/Controllers/Order.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Order->cekID()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-07 22:46:14 --> mysqli_sql_exception: MySQL server has gone away in /home/mentari3/tema1.xosgames.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/system/Session/Handlers/DatabaseHandler.php(219): CodeIgniter\Database\BaseBuilder->update()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->write()
+#6 [internal function]: session_write_close()
+#7 {main}
+CRITICAL - 2024-04-07 23:00:36 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Order.php on line 74.
+ 1 APPPATH/Controllers/Order.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Order->cekID()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-07 23:00:36 --> mysqli_sql_exception: MySQL server has gone away in /home/mentari3/tema1.xosgames.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/system/Session/Handlers/DatabaseHandler.php(219): CodeIgniter\Database\BaseBuilder->update()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->write()
+#6 [internal function]: session_write_close()
+#7 {main}
+CRITICAL - 2024-04-07 23:21:34 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Order.php on line 74.
+ 1 APPPATH/Controllers/Order.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Order->cekID()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-07 23:21:34 --> mysqli_sql_exception: MySQL server has gone away in /home/mentari3/tema1.xosgames.com/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/mentari3/tema1.xosgames.com/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/mentari3/tema1.xosgames.com/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/mentari3/tema1.xosgames.com/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/mentari3/tema1.xosgames.com/system/Database/BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query()
+#4 /home/mentari3/tema1.xosgames.com/system/Session/Handlers/DatabaseHandler.php(219): CodeIgniter\Database\BaseBuilder->update()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->write()
+#6 [internal function]: session_write_close()
+#7 {main}

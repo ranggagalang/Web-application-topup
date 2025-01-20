@@ -1,0 +1,78 @@
+CRITICAL - 2024-04-28 10:12:21 --> Call to undefined method App\Controllers\Callback::respond()
+in APPPATH/Controllers/Callback.php on line 248.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackTokopay()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-28 10:14:03 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Callback.php on line 241.
+ 1 APPPATH/Controllers/Callback.php(241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackTokopay()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-28 10:15:01 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Callback.php on line 241.
+ 1 APPPATH/Controllers/Callback.php(241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackTokopay()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-28 10:16:00 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Callback.php on line 241.
+ 1 APPPATH/Controllers/Callback.php(241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackTokopay()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-28 12:53:09 --> Trying to access array offset on value of type null
+in APPPATH/Views/invoice.php on line 31.
+ 1 APPPATH/Views/invoice.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/mentari3/tema1.xosgames.com/app/Views/invoice.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/View.php(225): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->invoice()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-28 20:29:53 --> Call to undefined method App\Controllers\Callback::respond()
+in APPPATH/Controllers/Callback.php on line 248.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackTokopay()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-28 20:30:51 --> Call to undefined method App\Controllers\Callback::respond()
+in APPPATH/Controllers/Callback.php on line 248.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackTokopay()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-28 20:31:05 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Callback.php on line 241.
+ 1 APPPATH/Controllers/Callback.php(241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackTokopay()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-28 20:32:14 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Callback.php on line 241.
+ 1 APPPATH/Controllers/Callback.php(241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackTokopay()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-28 20:38:02 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Callback.php on line 241.
+ 1 APPPATH/Controllers/Callback.php(241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackTokopay()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-28 20:39:01 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Callback.php on line 241.
+ 1 APPPATH/Controllers/Callback.php(241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackTokopay()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

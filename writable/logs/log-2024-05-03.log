@@ -1,0 +1,668 @@
+ERROR - 2024-05-03 15:28:09 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=31737 in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 185)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'x_tema1', 3306, '', 0)
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+#4 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(919): session_start()
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(693): CodeIgniter\Session\Session->start()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#11 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+#12 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#13 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(24): session()
+#14 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(914): App\Controllers\View->__construct()
+#15 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+#16 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#18 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'x_tema1', 3306, '', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+#3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(919): session_start()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(693): CodeIgniter\Session\Session->start()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+#11 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#12 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(24): session()
+#13 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(914): App\Controllers\View->__construct()
+#14 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+#15 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#17 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+#2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(919): session_start()
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(693): CodeIgniter\Session\Session->start()
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(24): session()
+#12 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(914): App\Controllers\View->__construct()
+#13 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+#14 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+ERROR - 2024-05-03 15:28:09 --> Error connecting to the database: mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'x_tema1', 3306, '', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+#3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(919): session_start()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(693): CodeIgniter\Session\Session->start()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+#11 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#12 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(24): session()
+#13 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(914): App\Controllers\View->__construct()
+#14 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+#15 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#17 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+#2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(919): session_start()
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(693): CodeIgniter\Session\Session->start()
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(24): session()
+#12 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(914): App\Controllers\View->__construct()
+#13 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+#14 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+ERROR - 2024-05-03 15:28:09 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=31739 in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/storage/emulat...', 185)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'x_tema1', 3306, '', 0)
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+#4 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(919): session_start()
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(693): CodeIgniter\Session\Session->start()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#11 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+#12 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#13 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(24): session()
+#14 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(914): App\Controllers\View->__construct()
+#15 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+#16 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#18 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'x_tema1', 3306, '', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+#3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(919): session_start()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(693): CodeIgniter\Session\Session->start()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+#11 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#12 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(24): session()
+#13 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(914): App\Controllers\View->__construct()
+#14 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+#15 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#17 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+#2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(919): session_start()
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(693): CodeIgniter\Session\Session->start()
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(24): session()
+#12 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(914): App\Controllers\View->__construct()
+#13 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+#14 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2024-05-03 15:28:09 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+ 2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+ 3 SYSTEMPATH/Session/Session.php(919): session_start()
+ 4 SYSTEMPATH/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH/Config/Services.php(693): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 7 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+10 SYSTEMPATH/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 APPPATH/Controllers/View.php(24): session()
+12 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\View->__construct()
+13 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+14 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-03 15:28:09 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+ 2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+ 3 SYSTEMPATH/Session/Session.php(919): session_start()
+ 4 SYSTEMPATH/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH/Config/Services.php(693): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 7 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+10 SYSTEMPATH/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 APPPATH/Controllers/View.php(24): session()
+12 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\View->__construct()
+13 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+14 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-03 15:28:09 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+ 2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+ 3 SYSTEMPATH/Session/Session.php(919): session_start()
+ 4 SYSTEMPATH/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH/Config/Services.php(693): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 7 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+10 SYSTEMPATH/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 APPPATH/Controllers/View.php(24): session()
+12 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\View->__construct()
+13 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+14 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 15:28:09 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'x_tema1', 3306, '', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+#3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(919): session_start()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(693): CodeIgniter\Session\Session->start()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+#11 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#12 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(24): session()
+#13 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(914): App\Controllers\View->__construct()
+#14 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+#15 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#17 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+#2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(919): session_start()
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(693): CodeIgniter\Session\Session->start()
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(24): session()
+#12 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(914): App\Controllers\View->__construct()
+#13 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+#14 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2024-05-03 15:28:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(98): CodeIgniter\Database\BaseConnection->initialize()
+ 2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+ 3 SYSTEMPATH/Session/Session.php(919): session_start()
+ 4 SYSTEMPATH/Session/Session.php(241): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH/Config/Services.php(693): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 7 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH/Config/Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::session()
+10 SYSTEMPATH/Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 APPPATH/Controllers/View.php(24): session()
+12 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\View->__construct()
+13 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+14 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-03 15:48:50 --> Undefined array key "brand"
+in APPPATH/Controllers/View.php on line 405.
+ 1 APPPATH/Controllers/View.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brand"', '/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php', 405)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->service()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-03 19:19:39 --> Undefined array key "data"
+in APPPATH/Controllers/View.php on line 404.
+ 1 APPPATH/Controllers/View.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', '/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php', 404)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->service()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-03 19:19:53 --> Attempt to read property "data" on array
+in APPPATH/Controllers/View.php on line 404.
+ 1 APPPATH/Controllers/View.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "data" on array', '/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php', 404)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->service()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-03 20:33:14 --> Undefined variable $newTransaksi
+in APPPATH/Controllers/View.php on line 427.
+ 1 APPPATH/Controllers/View.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newTransaksi', '/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php', 427)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:04 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:04 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:07 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:07 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:08 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:08 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:08 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:08 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:09 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:09 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:25 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:25 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:26 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:26 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:26 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:26 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:27 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:27 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:28 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:28 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:28 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:28 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:28 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:28 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:29 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:29 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 20:51:29 --> mysqli_sql_exception: Unknown column 'game_id' in 'where clause' in /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+#7 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(942): App\Controllers\View->getMyService()
+#8 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#9 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 20:51:29 --> Unknown column 'game_id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`
+WHERE `game_id` = :game_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/View.php(427): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->getMyService()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

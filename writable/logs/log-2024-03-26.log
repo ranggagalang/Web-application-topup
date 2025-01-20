@@ -1,0 +1,18 @@
+ERROR - 2024-03-26 00:40:12 --> Invoice not found or status is not Pending.
+ERROR - 2024-03-26 00:40:29 --> Invoice not found or status is not Pending.
+CRITICAL - 2024-03-26 00:48:13 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH/Views/buy.php on line 40.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/View.php(103): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->buy()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 17:24:33 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Callback.php on line 202.
+ 1 APPPATH/Controllers/Callback.php(202): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackPaydisini()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

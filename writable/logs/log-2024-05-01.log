@@ -1,0 +1,100 @@
+CRITICAL - 2024-05-01 15:21:21 --> Cannot redeclare App\Controllers\Admin\View::editProduk()
+in APPPATH/Controllers/Admin/View.php on line 479.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-01 15:21:37 --> Undefined variable $pembelian
+in APPPATH/Views/admin/pembelian/index.php on line 80.
+ 1 APPPATH/Views/admin/pembelian/index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pembelian', '/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/pembelian/index.php', 80)
+ 2 SYSTEMPATH/View/View.php(228): include('/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/pembelian/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('admin/pembelian/index', [], true)
+ 5 APPPATH/Controllers/Admin/View.php(453): view('admin/pembelian/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin\View->pembelian()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\View))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 15:26:46 --> Undefined variable $p
+in APPPATH/Views/admin/pembelian/edit.php on line 11.
+ 1 APPPATH/Views/admin/pembelian/edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', '/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/pembelian/edit.php', 11)
+ 2 SYSTEMPATH/View/View.php(228): include('/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/pembelian/edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('admin/pembelian/edit', [], true)
+ 5 APPPATH/Controllers/Admin/View.php(492): view('admin/pembelian/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin\View->editPembelian('171')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\View))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 16:03:34 --> Undefined variable $topup
+in APPPATH/Views/admin/topup/index.php on line 71.
+ 1 APPPATH/Views/admin/topup/index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topup', '/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/topup/index.php', 71)
+ 2 SYSTEMPATH/View/View.php(228): include('/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/topup/index.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('admin/topup/index', [], true)
+ 5 APPPATH/Controllers/Admin/View.php(315): view('admin/topup/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin\View->topup()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\View))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 16:15:28 --> Undefined variable $topup
+in APPPATH/Views/admin/user/edit.php on line 6.
+ 1 APPPATH/Views/admin/user/edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topup', '/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/user/edit.php', 6)
+ 2 SYSTEMPATH/View/View.php(228): include('/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/user/edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH/Controllers/Admin/View.php(612): view('admin/user/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin\View->editUser('35')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\View))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 22:27:20 --> Undefined variable $games
+in APPPATH/Views/admin/metode/edit.php on line 7.
+ 1 APPPATH/Views/admin/metode/edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $games', '/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/metode/edit.php', 7)
+ 2 SYSTEMPATH/View/View.php(228): include('/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/metode/edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('admin/metode/edit', [], true)
+ 5 APPPATH/Controllers/Admin/View.php(393): view('admin/metode/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin\View->editMetode('1')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\View))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 22:36:38 --> Class "App\Controllers\Admin\MetodePembayaranModel" not found
+in APPPATH/Controllers/Admin/Update.php on line 333.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin\Update->updateMetode('11')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Update))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 23:15:49 --> Trying to access array offset on value of type null
+in APPPATH/Views/admin/pengaturan/tema.php on line 27.
+ 1 APPPATH/Views/admin/pengaturan/tema.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/pengaturan/tema.php', 27)
+ 2 SYSTEMPATH/View/View.php(228): include('/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/admin/pengaturan/tema.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('admin/pengaturan/tema', [], true)
+ 5 APPPATH/Controllers/Admin/View.php(227): view('admin/pengaturan/tema', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin\View->tema()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\View))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 23:22:46 --> Cannot redeclare App\Controllers\Admin\Update::updateWebsite()
+in APPPATH/Controllers/Admin/Update.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-01 23:43:54 --> syntax error, unexpected token ":", expecting end of file
+in APPPATH/Views/template.php on line 39.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('template', [], true)
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH/Controllers/View.php(57): view('index', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 23:44:35 --> Undefined variable $theme
+in APPPATH/Views/template.php on line 41.
+ 1 APPPATH/Views/template.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $theme', '/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/template.php', 41)
+ 2 SYSTEMPATH/View/View.php(228): include('/storage/emulated/0/ksweb/tools/phpMyAdmin/x-tema1/app/Views/template.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('template', [], true)
+ 5 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH/Controllers/View.php(57): view('index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

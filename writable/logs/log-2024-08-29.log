@@ -1,0 +1,84 @@
+CRITICAL - 2024-08-29 13:27:56 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-29 13:52:06 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-29 13:52:35 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-29 14:11:04 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-29 14:11:07 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-29 14:11:15 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-29 14:33:02 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-29 14:33:04 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-29 14:35:56 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-29 14:52:29 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-29 14:53:48 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-29 15:34:03 --> array_key_exists(): Argument #2 ($array) must be of type array, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 48.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(48): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

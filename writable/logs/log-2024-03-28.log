@@ -1,0 +1,11 @@
+ERROR - 2024-03-28 00:30:14 --> Invoice not found or status is not Pending.
+ERROR - 2024-03-28 00:30:15 --> Invoice not found or status is not Pending.
+ERROR - 2024-03-28 00:30:16 --> Invoice not found or status is not Pending.
+ERROR - 2024-03-28 00:30:18 --> Invoice not found or status is not Pending.
+CRITICAL - 2024-03-28 16:21:37 --> Call to undefined method CodeIgniter\Cache\Handlers\FileHandler::has()
+in APPPATH/Controllers/View.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\View->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-28 22:18:04 --> Invoice not found or status is not Pending.

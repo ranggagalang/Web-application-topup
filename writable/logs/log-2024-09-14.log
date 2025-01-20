@@ -1,0 +1,758 @@
+ERROR - 2024-09-14 00:28:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 00:28:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 00:29:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 00:29:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 00:30:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 00:30:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 00:31:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 00:31:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 09:18:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 09:18:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 09:19:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 09:19:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 09:30:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 09:30:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-14 09:33:41 --> foreach() argument must be of type array|object, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 52.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-14 09:37:19 --> foreach() argument must be of type array|object, null given
+in APPPATH/Controllers/Sistem/Sistem.php on line 52.
+ 1 APPPATH/Controllers/Sistem/Sistem.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\Sistem\Sistem->getProdukVip()
+ 3 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 09:43:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 09:43:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 10:01:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 10:01:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 10:13:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 10:13:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 10:19:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 10:19:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 10:24:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 10:24:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 10:24:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 10:24:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 10:27:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 10:27:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 10:56:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 10:56:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 11:43:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 11:43:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 11:45:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 11:45:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 11:46:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 11:46:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 11:46:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 11:46:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 11:47:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 11:47:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 11:47:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 11:47:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 11:47:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 11:47:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 11:47:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 11:47:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 11:47:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 11:47:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 11:47:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 11:47:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 20:56:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 20:56:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 22:02:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 22:02:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 22:17:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 22:17:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 22:18:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 22:18:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 22:25:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 22:25:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-14 22:25:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/linkpaym/v8.linkpayment.my.id/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkpaym/v8.linkpayment.my.id/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkpaym/v8.linkpayment.my.id/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkpaym/v8.linkpayment.my.id/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/linkpaym/v8.linkpayment.my.id/app/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+#7 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+#8 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 /home/linkpaym/v8.linkpayment.my.id/system/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/linkpaym/v8.linkpayment.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-14 22:25:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/View.php(81): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(943): App\Controllers\View->getFlashSale()
+ 6 SYSTEMPATH/CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(362): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,34 @@
+CRITICAL - 2024-04-05 20:33:09 --> Class "App\Controllers\Autentikasi\ApiProviderModel" not found
+in APPPATH/Controllers/Autentikasi/Autentikasi.php on line 298.
+ 1 APPPATH/Controllers/Autentikasi/Autentikasi.php(180): App\Controllers\Autentikasi\Autentikasi->kirimWhatsAppOTP()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Autentikasi\Autentikasi->validasiResetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-05 23:46:10 --> Call to undefined method App\Controllers\Callback::respond()
+in APPPATH/Controllers/Callback.php on line 212.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackPaydisini()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-05 23:48:01 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Callback.php on line 205.
+ 1 APPPATH/Controllers/Callback.php(205): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackPaydisini()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-05 23:49:02 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Callback.php on line 205.
+ 1 APPPATH/Controllers/Callback.php(205): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackPaydisini()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-05 23:50:00 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Callback.php on line 205.
+ 1 APPPATH/Controllers/Callback.php(205): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Callback->callbackPaydisini()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

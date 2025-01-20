@@ -1,0 +1,8 @@
+domain.com/callback ( callback tokopay )
+/sistem/get-produkVip ( get vip )
+/sistem/update-statusVip
+/sistem/get-produkDf ( get Digi )
+/sistem/update-statusDf
+/sistem/get-produkVcg 
+/sistem/update-statusAg ( update apigames status )
+/sistem/update-refundOrder

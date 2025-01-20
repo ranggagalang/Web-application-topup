@@ -1,0 +1,11 @@
+CRITICAL - 2024-04-03 21:45:41 --> Undefined variable $games
+in APPPATH/Views/user/topup.php on line 27.
+ 1 APPPATH/Views/user/topup.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $games', '/storage/emulated/0/ksweb/tools/phpMyAdmin/topup-tema2/app/Views/user/topup.php', 27)
+ 2 SYSTEMPATH/View/View.php(228): include('/storage/emulated/0/ksweb/tools/phpMyAdmin/topup-tema2/app/Views/user/topup.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('user/topup', [], true)
+ 5 APPPATH/Controllers/User/View.php(174): view('user/topup', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\User\View->topup()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\View))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

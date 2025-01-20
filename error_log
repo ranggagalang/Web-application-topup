@@ -1,0 +1,38 @@
+[06-Apr-2024 23:46:55 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "display_errors", expecting "function" or "const" in /home/mentari3/tema1.xosgames.com/app/Config/App.php on line 179
+[06-Apr-2024 23:47:18 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "display_errors", expecting variable in /home/mentari3/tema1.xosgames.com/app/Config/App.php on line 179
+[06-Apr-2024 23:47:26 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "display_errors", expecting variable in /home/mentari3/tema1.xosgames.com/app/Config/App.php on line 179
+[06-Apr-2024 23:47:26 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "display_errors", expecting variable in /home/mentari3/tema1.xosgames.com/app/Config/App.php on line 179
+[06-Apr-2024 23:48:26 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "display_errors", expecting variable in /home/mentari3/tema1.xosgames.com/app/Config/App.php on line 179
+[06-Apr-2024 23:48:26 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "display_errors", expecting variable in /home/mentari3/tema1.xosgames.com/app/Config/App.php on line 179
+[24-May-2024 16:46:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 20
+[24-May-2024 16:48:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 21
+[24-May-2024 16:49:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 21
+[24-May-2024 16:51:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 24
+[24-May-2024 16:53:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 22
+[24-May-2024 16:53:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 22
+[24-May-2024 17:02:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 20
+[24-May-2024 17:02:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 20
+[24-May-2024 17:04:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 20
+[24-May-2024 17:26:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 15
+[25-May-2024 02:31:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 15
+[25-May-2024 07:51:54 UTC] PHP Parse error:  syntax error, unexpected '$response_text' (T_VARIABLE), expecting ';' or ',' in /home/topupvip/public_html/tes.php on line 15
+[25-May-2024 07:53:20 UTC] PHP Notice:  Undefined index: audio in /home/topupvip/public_html/tes.php on line 15
+[25-May-2024 07:53:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/topupvip/public_html/tes.php on line 15
+[12-Sep-2024 10:31:10 UTC] PHP Warning:  Undefined variable $invoice in /home/linkpaym/v8.linkpayment.my.id/gas.php on line 29
+[12-Sep-2024 10:31:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/linkpaym/v8.linkpayment.my.id/gas.php on line 29
+[12-Sep-2024 10:34:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "selisih" in /home/linkpaym/v8.linkpayment.my.id/gas.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/linkpaym/v8.linkpayment.my.id/gas.php on line 55
+[12-Sep-2024 10:34:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "selisih" in /home/linkpaym/v8.linkpayment.my.id/gas.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/linkpaym/v8.linkpayment.my.id/gas.php on line 55
+[12-Sep-2024 10:40:28 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "selisih" in /home/linkpaym/v8.linkpayment.my.id/gas.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/linkpaym/v8.linkpayment.my.id/gas.php on line 55
+[12-Sep-2024 10:44:20 UTC] PHP Fatal error:  Uncaught Error: Object of class DateInterval could not be converted to string in /home/linkpaym/v8.linkpayment.my.id/gas.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/linkpaym/v8.linkpayment.my.id/gas.php on line 70
